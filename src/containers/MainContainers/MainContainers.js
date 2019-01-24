@@ -66,7 +66,7 @@ class MainContainers extends Component {
                             {
                                 this.state.countryAlpha.borders ?
                                 this.state.countryAlpha.borders.map((border, index) => {
-                                   return <ul><li key={index}>{border}</li></ul>
+                                   return <ul><li className={'li'} key={index}>{border}</li></ul>
                                 })
                                 :null
                             }
