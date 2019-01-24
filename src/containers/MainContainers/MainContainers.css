@@ -1,0 +1,15 @@
+.MainContainers{
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    color: black;
+    background: white;
+}
+.countryBlock{
+    display: inline-block;
+    margin: 0 0 5px 0;
+    padding: 15px;
+    width: 30%;
+    height: 90vh;
+    overflow: auto;
+}

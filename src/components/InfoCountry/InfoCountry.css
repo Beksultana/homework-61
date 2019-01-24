@@ -1,0 +1,35 @@
+.InfoCountry{
+    padding: 15px 30px;
+    margin: 30px 0 0 20px;
+    border: 1px solid #ccc;
+}
+.CountryNameBlock{
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.CountryNameBlock h1 {
+    font-size: 40px;
+    margin: 10px 0 0 0;
+}
+.CountryNameBlock img {
+    box-shadow: 1px 1px 15px 2px #ccc;
+    margin: 0 0 5px;
+    width: 600px;
+    height: 300px;
+}
+.InfoBlockCountry{
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px 20px;
+    margin-bottom: 10px;
+}
+.InfoBlockCountry p {
+    margin: 7px 0;
+    font-size: 16px;
+}
+.InfoBlockCountry strong {
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    color: rgba(82,81,84,0.81);
+}
