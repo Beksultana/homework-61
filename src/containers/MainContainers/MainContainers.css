@@ -7,9 +7,18 @@
 }
 .countryBlock{
     display: inline-block;
-    margin: 0 0 5px 0;
+    margin: 5px 0 5px 0;
     padding: 15px;
     width: 30%;
     height: 90vh;
     overflow: auto;
+}
+.countryBlock::-webkit-scrollbar {
+    width: 11px;
+    background: cornflowerblue;
+}
+.countryBlock::-webkit-scrollbar-thumb {
+    background: #2b6f99;
+    border-radius: 20px;
+    height: 60px;
 }
