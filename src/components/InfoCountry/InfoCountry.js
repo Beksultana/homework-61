@@ -15,8 +15,10 @@ const InfoCountry = (props) => {
                 <p> <strong>Population: </strong> {props.population}</p>
                 <p> <strong>Area: </strong> {props.area}</p>
                 <p> <strong>Region: </strong> {props.region}</p>
-                <p> <strong>Borders: </strong> {props.borders}</p>
-
+                <p><strong>Borders:</strong> </p>
+                <div className={'bordersName'}>
+                    {props.children}
+                </div>
 
             </div>
         </div>

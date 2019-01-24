@@ -16,8 +16,8 @@
 .CountryNameBlock img {
     box-shadow: 1px 1px 15px 2px #ccc;
     margin: 0 0 5px;
-    width: 600px;
-    height: 300px;
+    width: 450px;
+    height: 200px;
 }
 .InfoBlockCountry{
     border-bottom: 1px solid #ccc;
@@ -32,4 +32,7 @@
     font-size: 14px;
     margin: 0 10px 0 0;
     color: rgba(82,81,84,0.81);
+}
+.bordersName{
+    margin: -33px 0 0 40px;
 }

@@ -62,8 +62,14 @@ class MainContainers extends Component {
                             population={this.state.countryAlpha.population}
                             area={this.state.countryAlpha.area}
                             region={this.state.countryAlpha.region}
-                            borders={this.state.countryAlpha.borders? this.state.countryAlpha.borders.join(', ') : null}
                         >
+                            {
+                                this.state.countryAlpha.borders ?
+                                this.state.countryAlpha.borders.map((border, index) => {
+                                   return <ul><li key={index}>{border}</li></ul>
+                                })
+                                :null
+                            }
                         </InfoCountry>
                 </div>
             </div>
