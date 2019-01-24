@@ -13,6 +13,8 @@ const InfoCountry = (props) => {
                 <p><strong>Alpha Code 3: </strong> {props.alphaCode}</p>
                 <p><strong>Capital: </strong> {props.capital}</p>
                 <p> <strong>Population: </strong> {props.population}</p>
+                <p> <strong>Area: </strong> {props.area}</p>
+                <p> <strong>Region: </strong> {props.region}</p>
                 <p> <strong>Borders: </strong> {props.borders}</p>
 
 

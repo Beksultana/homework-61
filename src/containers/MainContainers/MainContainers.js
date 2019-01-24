@@ -16,8 +16,6 @@ class MainContainers extends Component {
 
     componentDidMount(){
 
-
-
         axios.get(this.COUNTRY_URL).then(response => {
             const country = response.data;
             this.setState({country})
@@ -25,10 +23,6 @@ class MainContainers extends Component {
             console.log(error);
         })
     };
-
-    componentDidUpdate(){
-        console.log('DidUpdate');
-    }
 
     getCountryOne = (code) => {
 
@@ -66,6 +60,8 @@ class MainContainers extends Component {
                             alphaCode={this.state.countryAlpha.alpha3Code}
                             capital={this.state.countryAlpha.capital}
                             population={this.state.countryAlpha.population}
+                            area={this.state.countryAlpha.area}
+                            region={this.state.countryAlpha.region}
                             borders={this.state.countryAlpha.borders? this.state.countryAlpha.borders.join(', ') : null}
                         >
                         </InfoCountry>
